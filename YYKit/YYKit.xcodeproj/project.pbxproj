@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550B88CF031E1C7B423EB24C /* Pods_YYKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C8A02D8EA982CA4AD313BF /* Pods_YYKit.framework */; };
+		6F4D59BB22696B2600B6A331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D59BA22696B2600B6A331 /* AppDelegate.m */; };
+		6F4D59C122696B2600B6A331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D59BF22696B2600B6A331 /* Main.storyboard */; };
+		6F4D59C322696B2800B6A331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D59C222696B2800B6A331 /* Assets.xcassets */; };
+		6F4D59C622696B2800B6A331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D59C422696B2800B6A331 /* LaunchScreen.storyboard */; };
+		6F4D59C922696B2800B6A331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D59C822696B2800B6A331 /* main.m */; };
+		6F88D11522696D1700470CA6 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88D10822696D1700470CA6 /* SecondVC.m */; };
+		6F88D11622696D1700470CA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88D10B22696D1700470CA6 /* ViewController.m */; };
+		6F88D11722696D1700470CA6 /* YCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88D10D22696D1700470CA6 /* YCCollectionViewCell.m */; };
+		6F88D11A22696D1700470CA6 /* YCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88D11222696D1700470CA6 /* YCBaseTableViewCell.m */; };
+		6F88D11F22696E1700470CA6 /* YYKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88D11E22696E1700470CA6 /* YYKitViewController.m */; };
+		6F88D1212269749500470CA6 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F88D1202269749500470CA6 /* 123.png */; };
+		6FE381972271BC95003B9FC8 /* YCTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE381932271BC95003B9FC8 /* YCTimeManager.m */; };
+		6FE381982271BC95003B9FC8 /* YCThreadSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE381942271BC95003B9FC8 /* YCThreadSimple.m */; };
+		6FE381992271BC95003B9FC8 /* YCUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE381962271BC95003B9FC8 /* YCUI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20C8A02D8EA982CA4AD313BF /* Pods_YYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4D59B622696B2600B6A331 /* YYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4D59B922696B2600B6A331 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F4D59BA22696B2600B6A331 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F4D59C022696B2600B6A331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F4D59C222696B2800B6A331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F4D59C522696B2800B6A331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F4D59C722696B2800B6A331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4D59C822696B2800B6A331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F88D10722696D1700470CA6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F88D10822696D1700470CA6 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		6F88D10922696D1700470CA6 /* YCBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCBaseTableViewCell.h; sourceTree = "<group>"; };
+		6F88D10A22696D1700470CA6 /* YCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCCollectionViewCell.h; sourceTree = "<group>"; };
+		6F88D10B22696D1700470CA6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F88D10C22696D1700470CA6 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		6F88D10D22696D1700470CA6 /* YCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCCollectionViewCell.m; sourceTree = "<group>"; };
+		6F88D11222696D1700470CA6 /* YCBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCBaseTableViewCell.m; sourceTree = "<group>"; };
+		6F88D11D22696E1700470CA6 /* YYKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitViewController.h; sourceTree = "<group>"; };
+		6F88D11E22696E1700470CA6 /* YYKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYKitViewController.m; sourceTree = "<group>"; };
+		6F88D1202269749500470CA6 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		6FE381912271BC95003B9FC8 /* YCThreadSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCThreadSimple.h; sourceTree = "<group>"; };
+		6FE381922271BC95003B9FC8 /* YCUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCUI.h; sourceTree = "<group>"; };
+		6FE381932271BC95003B9FC8 /* YCTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCTimeManager.m; sourceTree = "<group>"; };
+		6FE381942271BC95003B9FC8 /* YCThreadSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCThreadSimple.m; sourceTree = "<group>"; };
+		6FE381952271BC95003B9FC8 /* YCTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCTimeManager.h; sourceTree = "<group>"; };
+		6FE381962271BC95003B9FC8 /* YCUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCUI.m; sourceTree = "<group>"; };
+		D1622A00D1F0058CC43D9B44 /* Pods-YYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYKit/Pods-YYKit.release.xcconfig"; sourceTree = "<group>"; };
+		E129693F4442806635E263FA /* Pods-YYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYKit/Pods-YYKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F4D59B322696B2600B6A331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B88CF031E1C7B423EB24C /* Pods_YYKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CC80D822BCE7C521BAD9E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20C8A02D8EA982CA4AD313BF /* Pods_YYKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F4D59AD22696B2600B6A331 = {
+			isa = PBXGroup;
+			children = (
+				6F4D59B822696B2600B6A331 /* YYKit */,
+				6F4D59B722696B2600B6A331 /* Products */,
+				783DF492E9EEF1DFAAB35178 /* Pods */,
+				26CC80D822BCE7C521BAD9E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F4D59B722696B2600B6A331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D59B622696B2600B6A331 /* YYKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4D59B822696B2600B6A331 /* YYKit */ = {
+			isa = PBXGroup;
+			children = (
+				6FE381902271BC95003B9FC8 /* YCUI */,
+				6F4D59B922696B2600B6A331 /* AppDelegate.h */,
+				6F4D59BA22696B2600B6A331 /* AppDelegate.m */,
+				6F88D10C22696D1700470CA6 /* SecondVC.h */,
+				6F88D10822696D1700470CA6 /* SecondVC.m */,
+				6F88D10722696D1700470CA6 /* ViewController.h */,
+				6F88D10B22696D1700470CA6 /* ViewController.m */,
+				6F88D10922696D1700470CA6 /* YCBaseTableViewCell.h */,
+				6F88D11222696D1700470CA6 /* YCBaseTableViewCell.m */,
+				6F88D10A22696D1700470CA6 /* YCCollectionViewCell.h */,
+				6F88D10D22696D1700470CA6 /* YCCollectionViewCell.m */,
+				6F88D11C22696E0100470CA6 /* YYKitFile */,
+				6F4D59BF22696B2600B6A331 /* Main.storyboard */,
+				6F4D59C222696B2800B6A331 /* Assets.xcassets */,
+				6F4D59C422696B2800B6A331 /* LaunchScreen.storyboard */,
+				6F4D59C722696B2800B6A331 /* Info.plist */,
+				6F4D59C822696B2800B6A331 /* main.m */,
+			);
+			path = YYKit;
+			sourceTree = "<group>";
+		};
+		6F88D11C22696E0100470CA6 /* YYKitFile */ = {
+			isa = PBXGroup;
+			children = (
+				6F88D1202269749500470CA6 /* 123.png */,
+				6F88D11D22696E1700470CA6 /* YYKitViewController.h */,
+				6F88D11E22696E1700470CA6 /* YYKitViewController.m */,
+			);
+			path = YYKitFile;
+			sourceTree = "<group>";
+		};
+		6FE381902271BC95003B9FC8 /* YCUI */ = {
+			isa = PBXGroup;
+			children = (
+				6FE381912271BC95003B9FC8 /* YCThreadSimple.h */,
+				6FE381922271BC95003B9FC8 /* YCUI.h */,
+				6FE381932271BC95003B9FC8 /* YCTimeManager.m */,
+				6FE381942271BC95003B9FC8 /* YCThreadSimple.m */,
+				6FE381952271BC95003B9FC8 /* YCTimeManager.h */,
+				6FE381962271BC95003B9FC8 /* YCUI.m */,
+			);
+			path = YCUI;
+			sourceTree = "<group>";
+		};
+		783DF492E9EEF1DFAAB35178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E129693F4442806635E263FA /* Pods-YYKit.debug.xcconfig */,
+				D1622A00D1F0058CC43D9B44 /* Pods-YYKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F4D59B522696B2600B6A331 /* YYKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4D59CC22696B2800B6A331 /* Build configuration list for PBXNativeTarget "YYKit" */;
+			buildPhases = (
+				025E0FF0D9A664FD28E8C166 /* [CP] Check Pods Manifest.lock */,
+				6F4D59B222696B2600B6A331 /* Sources */,
+				6F4D59B322696B2600B6A331 /* Frameworks */,
+				6F4D59B422696B2600B6A331 /* Resources */,
+				00EDCD9F5B3E97BC2896C4EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYKit;
+			productName = YYKit;
+			productReference = 6F4D59B622696B2600B6A331 /* YYKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F4D59AE22696B2600B6A331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yangchang;
+				TargetAttributes = {
+					6F4D59B522696B2600B6A331 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F4D59B122696B2600B6A331 /* Build configuration list for PBXProject "YYKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F4D59AD22696B2600B6A331;
+			productRefGroup = 6F4D59B722696B2600B6A331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4D59B522696B2600B6A331 /* YYKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F4D59B422696B2600B6A331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F88D1212269749500470CA6 /* 123.png in Resources */,
+				6F4D59C622696B2800B6A331 /* LaunchScreen.storyboard in Resources */,
+				6F4D59C322696B2800B6A331 /* Assets.xcassets in Resources */,
+				6F4D59C122696B2600B6A331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00EDCD9F5B3E97BC2896C4EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YYKit/Pods-YYKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYKit/Pods-YYKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		025E0FF0D9A664FD28E8C166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F4D59B222696B2600B6A331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE381972271BC95003B9FC8 /* YCTimeManager.m in Sources */,
+				6F4D59C922696B2800B6A331 /* main.m in Sources */,
+				6F88D11A22696D1700470CA6 /* YCBaseTableViewCell.m in Sources */,
+				6F88D11522696D1700470CA6 /* SecondVC.m in Sources */,
+				6FE381982271BC95003B9FC8 /* YCThreadSimple.m in Sources */,
+				6FE381992271BC95003B9FC8 /* YCUI.m in Sources */,
+				6F88D11622696D1700470CA6 /* ViewController.m in Sources */,
+				6F4D59BB22696B2600B6A331 /* AppDelegate.m in Sources */,
+				6F88D11F22696E1700470CA6 /* YYKitViewController.m in Sources */,
+				6F88D11722696D1700470CA6 /* YCCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F4D59BF22696B2600B6A331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4D59C022696B2600B6A331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F4D59C422696B2800B6A331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4D59C522696B2800B6A331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F4D59CA22696B2800B6A331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F4D59CB22696B2800B6A331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F4D59CD22696B2800B6A331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E129693F4442806635E263FA /* Pods-YYKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8MNU2BHTQ;
+				INFOPLIST_FILE = YYKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.YYKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6F4D59CE22696B2800B6A331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1622A00D1F0058CC43D9B44 /* Pods-YYKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8MNU2BHTQ;
+				INFOPLIST_FILE = YYKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.YYKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F4D59B122696B2600B6A331 /* Build configuration list for PBXProject "YYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D59CA22696B2800B6A331 /* Debug */,
+				6F4D59CB22696B2800B6A331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4D59CC22696B2800B6A331 /* Build configuration list for PBXNativeTarget "YYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D59CD22696B2800B6A331 /* Debug */,
+				6F4D59CE22696B2800B6A331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F4D59AE22696B2600B6A331 /* Project object */;
+}
